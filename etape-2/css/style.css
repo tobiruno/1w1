@@ -1,0 +1,68 @@
+html {
+  scroll-behavior: smooth;
+}
+body {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  margin: 0;
+}
+/* /////////////////////////////////////////////////// Les sections de la page */
+section {
+  height: 100vh;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+h1 {
+  font-size: 3rem;
+  text-shadow: 2px, 2px, 4px, #bbb;
+  margin: 0;
+  font-family: cursive;
+  text-shadow: 10px 3px 7px;
+}
+h2 {
+  font-family: monospace;
+}
+h3 {
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+/* //////////////////////////////////////////////////// Gestion du menu */
+/* Menu principale du site. Si on utilise un positionnement fixed pour que le menu
+reste en haut de chacune des sections */
+nav {
+  position: fixed;
+  top: 0;
+  left: 0;
+  background-color: black;
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+}
+nav a {
+  color: white;
+  display: block;
+  text-decoration: none;
+  padding: 4px 1rem;
+}
+#accueil {
+  background-color: cornflowerblue;
+  flex-direction: column;
+  display: flex;
+  justify-content: space-around;
+}
+#inscription {
+  background-color: beige;
+}
+#galerie {
+  background-color: palevioletred;
+}
+#evenement {
+  background-color: lightgreen;
+}
+#video {
+  background-color: red;
+}
+#footer {
+  background-color: plum;
+}
